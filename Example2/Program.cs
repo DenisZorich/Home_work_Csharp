@@ -7,7 +7,20 @@ int num2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите третье число");
 int num3 = Convert.ToInt32(Console.ReadLine());
 
-i = max;
+if(num1 > num2)
+{
+    if(num1 > num3)
+    {
+        System.Console.WriteLine("Наибольшее число: " + num1);
+    }
+    else
+    System.Console.WriteLine("Наибольшее число: " +  num1);
+}
+    else if(num2 > num3)
+    {
+        System.Console.WriteLine("Наибольшее число: " +  num2);
+    }
+    else
+        System.Console.WriteLine("Наибольшее число" + num3);
 
-if(num1 = max);
-else (na)
+    
